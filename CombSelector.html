@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>combinator Selector</title>
+<style type="text/css">
+
+h1 ~ p{
+color: blue;
+background-color: #b2ad7f;
+font-size: 25px;
+font-weight: bold;
+font-family: Copperplate, Papyrus, fantasy;
+}
+#div1 p{
+background-color: #6b5b95;
+
+}
+#div1+p{
+background-color: coral;
+}
+#div1>p{
+background-color: red;
+}
+li::before {
+  content: "👉";
+  
+}
+div {
+font-size: 32px;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+
+</style>
+</head>
+
+<body >
+<p><a href="https://www.w3schools.com/css/css_combinators.asp" >ForeMore-Knowledge</a></p>
+<h1>There are four way</h1>
+<ul > 
+<li>descendant selector</li>
+<li>child selector (>)</li>
+<li>adjacent sibling selector (+)</li>
+<li>general sibling selector (~)</li>
+</ul>
+
+<p>The descendant selector matches all elements that are descendants of a specified element.</p>
+<div id="div1"> It is the div element
+<p> It is the paragraph under the div element </p>
+<p> descendant selector:selects all p lines </p>
+<p> child selector :only child of div  </p>
+<span><p>******</p></span>
+</div>
+
+<p>adjacent selector selects immediately line after the divblock</p>
+<p>It is the paragraph element which will also get affected</p>
+
+
+</body>
+</html>
+
+ 
