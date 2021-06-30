@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charest="utf-8">
+<title>combinator selector</title>
+<style type="text/css">
+p:hover{
+color:blue;
+background-color:yellow;
+}
+
+ p:first-child{
+color:red;
+background-color:blue;
+}
+#div1 p:last-child{
+color:yellow;
+
+}
+#div2 p:nth-child(3){
+color:pink;
+background-color:green;
+}
+input:enabled{
+
+background-color:yellow;
+
+}
+
+input:disabled{
+background-color:lime;
+
+
+}
+
+input:focus{
+border:5px dotted royalblue;
+}
+input checked{
+width:20px;
+height:30px;
+}
+</style>
+</head>
+<body >
+
+<h1>womens day</h1>
+
+<p>first paragraph</p>
+<p>Women of the world want and deserve an equal future free from stigma, stereotypes and violence; a future that’s sustainable, peaceful, with equal rights and opportunities for all. To get us there, the world needs women at every table where decisions are being made.
+
+UN Women is working to provide support to all women on the front lines of the fight against this pandemic; promoting flexible working arrangements; and prioritizing services to prevent gender-based domestic violence. Now you, too, can help them. Donate now.
+
+Donate now
+This year, the theme for International Women’s Day (8 March), “Women in leadership: Achieving an equal future in a COVID-19 world,” celebrates the tremendous efforts by women and girls around the world in shaping a more equal future and recovery from the COVID-19 pandemic and highlights the gaps that remain. </p>
+
+<div id="div1">
+    <p>descendent selector</p>
+<p>descendent selector</p>
+<p>descendent selector</p>
+<div><p>descendent selector</p></div>
+<section><p>descendent selector</p></section>
+<span>descendent selector</span>
+<p>last paragraph in first div</p>
+</div>
+
+<div id="div2">
+    <p>first paragraphin second div</p>
+<p>descendent selector</p>
+<p>third paragraph in second div</p>
+<div><p>descendent selector</p></div>
+<section><p>descendent selector</p></section>
+<span>descendent selector</span>
+<p>last paragraph in second div </p>
+</div>
+<h1>Register</h1>
+<form>
+<pre>
+<label ><b>First Name:</b></label><!--input box accept so that label is used-->
+<input type="text" name="first name" value="Girija">
+
+<label ><b>Middle Name:</b></label>
+<input type="text" name="middle name" required>
+
+<label ><b>Last Name:</b></label>
+<input type="text" name="last name">
+
+<label ><b>Email:</b></label>
+<input type="email" name="email" placeholder="Enter valid email id">
+
+<label for="Password">Password :</label>
+<input type="text" name="Password"  placeholder="Enter Ur Password" required>
+
+<label for="userName">Name:</label>
+<input type="text" name="userName">
+
+<label >Email</label>
+<input type="email" name="email">
+
+<label >MobileNo</label>
+<input type="number" name="mobileNumber" placeholder="Enter 10 digit" required>
+
+<label >Age</label>
+<input type="number" name="age"></pre>
+
+<label >Gender</label><br>
+
+<label >Male</label>
+<input type="radio" name="gender">
+
+<label >Female</label>
+<input type="radio" name="gender">
+
+<label >Other</label>
+<input type="radio" name="gender"> 
+
+
+<pre>
+
+<input type="submit" name="submit">
+
+
+</form>
+
+</body>
+</html>
