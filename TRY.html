@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MobileView</title>
+<style>
+ #header{
+  position:relative;
+	 background-color: black;
+	 color: red;
+	 text-align:left;
+	 padding:5px;
+	 }
+	 
+ img{
+	     width: 50%;
+		 height: 40%;
+		 margin: 40px;
+	 
+	 }
+	 #main{
+	   font-size:30px;
+	   font-family: monospace;
+	 }#main{
+	    font-size: 30px;
+		font-family: monospace;
+	 }
+	 
+	 #footer{
+	   background-color: black;
+	   color: black;
+	   text-align: center;
+	   height: 50px;
+	   padding: 60px;
+	   position: sticky;
+	   bottom: 0px;
+	 }
+	 /*mobile device*/
+	 @media all and (min-width: 300px) and (max-width: 500px){
+	   #main{
+	   font-size: 10px;
+	   font-family: monospace;
+	   color: cyan;
+	 }
+	 
+	 #main img{
+	  height: 50%;
+	  width: 40%;
+	 }
+	 }
+	 
+	 /* tab device*/
+	 @media all(min-width:500px) and (max-width:1000px) and (min-height: 600px)
+	 and (max-height: 100px){
+	  #main{
+	   font-size: 20px;
+	   font-family: monospace;
+	   color: blue;
+	 }  
+	 }
+	 
+	 /*desktop device*/
+	  @media all and(min-width:1000px){
+	  #main{
+	   font-size: 30px;
+	   font-family: monospace;
+	   color: yellow;
+	 }  
+	 }
+	 
+	 @media all and (orientation: landscape){
+	  #main{
+	  
+	  font-size:30px;
+	  font-family:monospace;
+	  color: chocolate;
+	  }
+	 @media all and(orientation: portrait) and (min-height: 1001px){
+	  #main{
+	  font-size:30px;
+	  font-family:monospace;
+	  color:red;
+	  
+	  }
+	 }
+	 </style>
+</head>
+<body>
+
+ <div id="header"> <h1>Royal ENFIELD</h1> </div>
+ 
+     
+<img src= "https://th.bing.com/th/id/OIP.68RY4JGrz5_amqEhJ861OgHaEK?w=281&h=180&c=7&o=5&pid=1.7">
+<div id="main">
+Royal Enfield Meteor 350 wins Cruiser of the Year Award at the BikeIndia Awards 2021. Royal Enfield Meteor 350 wins Motorcycle of the Year Award at the Autocar Awards. The Royal Enfield 650 Twin Motorcycles get new colourways with an array of Make-it-Yours (MiY) Options. Motorcycles. Interceptor. Continental GT. Meteor. Himalayan. Bullet. Classic. Explore. Explore. Explore.
+</div>
+<div id="footer">
+  <ul>
+      <li><a href="#">Motorcycles</li>
+	  <li><a href="">LOCATE US</li>
+	  <li><a href="">RIDES</li>
+	  <li><a href="">ACCESSORIES</li>
+	  <li><a href="">OUR WORLD</li>
+  </ul>
+</div></div>
+
+<div> Fifa world cup</div>
+
+</body>
+</html>
